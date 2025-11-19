@@ -17,7 +17,6 @@ This project demonstrates a robust SQL-based pipeline to:
 The result is a high-quality, analysis-ready dataset suitable for dashboards, spend insights & anomaly detection.
 
 # Problem
-
 Financial transaction data is valuable but often unreliable in raw form due to:
 - Manual input errors
 - Incorrect categories or merchant names
@@ -30,7 +29,7 @@ Without proper cleaning, downstream analytics become inaccurate.
 This project shows how raw transactions are converted into trustworthy, structured data.
 
 # Methodology
-Data Source
+### Data Source
 - Real bank data cannot be used for compliance reasons.
 - Therefore, this dataset was synthetically generated in Python using: 🔗 UK Open Banking API Standards (https://openbankinguk.github.io/read-write-api-site3/v4.0/resources-and-data-models/aisp/Transactions.html)
 - The generated data reflects:
@@ -47,7 +46,7 @@ Data Source
   - Load raw CSV into PostgreSQL
   - Create a staging table
   - Transform data
-  - Introduce final cleaned table and view
+  - Introduce the final cleaned table and view
 2. Data Cleaning Best Practices Applied
   - Trim whitespace
   - Standardise string casing (INITCAP)
@@ -69,11 +68,8 @@ Data Source
       - Duplicate removals
       - Missing value repairs
       - Logical validation flags
-
-A summary view aggregates these counts for easy presentation.
-
+  
 # Skills Demonstrated
-
 - SQL (CTEs, Views, Window Functions)
 - Python (Data generation, Open Banking API modelling)
 - Data Engineering best practices
@@ -86,9 +82,7 @@ A summary view aggregates these counts for easy presentation.
 - Merchant analytics
 ### Next Steps
 - Connecting to live Open Banking APIs
-- Automating the pipeline using DBT, Airflow, or Python scripts
 - Enhancing the merchant dictionary and fuzzy matching rules
-- Adding anomaly/outlier detection features
 - Enriching data (customer profiles, subscription detection)
 
 Publishing BI dashboards (Tableau, Power BI) using the cleaned data
