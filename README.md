@@ -1,4 +1,4 @@
-# Cleaning Open Banking Transaction Data-in-SQL 
+# Cleaning Open Banking Transaction Data in SQL 
 # Executive Summary
 
 - Financial transaction data is essential for analytics, reporting, and insight generation — but raw data is often messy, inconsistent, or incomplete.
