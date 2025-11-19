@@ -15,7 +15,7 @@ This project demonstrates a robust SQL-based pipeline to:
 - Produce a final clean view for BI and reporting
 
 **The result is a high-quality, analysis-ready dataset suitable for dashboards, spend insights & anomaly detection.**
-
+# Cleaning Report
 ![alt text](https://github.com/geoffreyrwamakuba-rgb/Cleaning-Transaction-Data-in-SQL/blob/main/Summary%20Table.png?raw=true)
 
 
