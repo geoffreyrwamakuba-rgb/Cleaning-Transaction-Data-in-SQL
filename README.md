@@ -41,13 +41,13 @@ This project shows how raw transactions are converted into trustworthy, structur
   - Customer spending behaviour
 
 ## Cleaning Workflow (SQL-Driven)
-1. Key Steps
+### Key Steps
   - Generate random data in Python
   - Load raw CSV into PostgreSQL
   - Create a staging table
   - Transform data
   - Introduce the final cleaned table and view
-2. Data Cleaning Best Practices Applied
+### Data Cleaning Best Practices Applied
   - Trim whitespace
   - Standardise string casing (INITCAP)
   - Fix merchant names using:
@@ -61,7 +61,7 @@ This project shows how raw transactions are converted into trustworthy, structur
       - Currency codes follow ISO format
       - Exchange rate logic (rate only when currencies differ)
       - Enforce constraints so future loads remain clean
-3. Change Logging
+### Change Logging
   - All significant corrections are written to a cleaning log table, including:
       - Merchant name fixes
       - Category corrections
