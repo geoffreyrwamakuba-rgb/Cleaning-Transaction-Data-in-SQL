@@ -1,9 +1,9 @@
 # Cleaning Open Banking Transaction Data in SQL 
 # Executive Summary
 
-- Financial transaction data is essential for analytics, reporting, and insight generation — but raw data is often messy, inconsistent, or incomplete.
+- Financial transaction data is essential for analytics and insight generation, but raw data is often messy, inconsistent, or incomplete.
 - In this project, I cleaned a year's worth of consumer Transaction Data.
-- Financial data is legally restricted so, all datasets were generated using the UK Open Banking API standards to simulate realistic transaction behaviour.
+- Financial data is legally restricted, so all datasets were generated using the UK Open Banking API standards to simulate realistic transaction behaviour.
 
 This project demonstrates a robust SQL-based pipeline to:
 - Clean and standardise merchant names
@@ -14,7 +14,7 @@ This project demonstrates a robust SQL-based pipeline to:
 - Log all changes for auditability
 - Produce a final clean view for BI and reporting
 
-The result is a high-quality, analysis-ready dataset suitable for dashboards, spend insights & anomaly detection.
+**The result is a high-quality, analysis-ready dataset suitable for dashboards, spend insights & anomaly detection.**
 
 # Problem
 Financial transaction data is valuable but often unreliable in raw form due to:
