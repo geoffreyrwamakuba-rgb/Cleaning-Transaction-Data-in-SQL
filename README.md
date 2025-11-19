@@ -16,8 +16,7 @@ This project demonstrates a robust SQL-based pipeline to:
 
 **The result is a high-quality, analysis-ready dataset suitable for dashboards, spend insights & anomaly detection.**
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-
+![alt text](https://github.com/geoffreyrwamakuba-rgb/Cleaning-Transaction-Data-in-SQL/blob/main/Summary%20Table.png?raw=true)
 
 # Problem
 Financial transaction data is valuable but often unreliable in raw form due to:
