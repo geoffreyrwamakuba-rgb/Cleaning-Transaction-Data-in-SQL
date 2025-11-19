@@ -18,6 +18,7 @@ This project demonstrates a robust SQL-based pipeline to:
 
 ![alt text](https://github.com/geoffreyrwamakuba-rgb/Cleaning-Transaction-Data-in-SQL/blob/main/Summary%20Table.png?raw=true)
 
+
 # Problem
 Financial transaction data is valuable but often unreliable in raw form due to:
 - Manual input errors
@@ -31,18 +32,12 @@ Without proper cleaning, downstream analytics become inaccurate.
 This project shows how raw transactions are converted into trustworthy, structured data.
 
 # Methodology
-### Data Source
+## Data Source
 - Real bank data cannot be used for compliance reasons.
-- Therefore, this dataset was synthetically generated in Python using: 🔗 UK Open Banking API Standards (https://openbankinguk.github.io/read-write-api-site3/v4.0/resources-and-data-models/aisp/Transactions.html)
-- The generated data reflects:
-  - Merchant details / MCC codes
-  - Booked/value dates
-  - Currencies & exchange rates
-  - Transaction types
-  - Category labels
-  - Customer spending behaviour
+- Therefore, this dataset was synthetically generated in Python using: **UK Open Banking API Standards** (https://openbankinguk.github.io/read-write-api-site3/v4.0/resources-and-data-models/aisp/Transactions.html)
+- The generated data reflects: Customer spending behaviour, Merchant details / MCC codes, & Transaction types.
 
-## Cleaning Workflow (SQL-Driven)
+## Cleaning Workflow (SQL)
 ### Key Steps
   - Generate random data in Python
   - Load raw CSV into PostgreSQL
