@@ -34,7 +34,7 @@ This project shows how raw transactions are converted into trustworthy, structur
 # Methodology
 ## Data Source
 - Real bank data cannot be used for compliance reasons.
-- Therefore, this dataset was synthetically generated in Python using: **UK Open Banking API Standards** (https://openbankinguk.github.io/read-write-api-site3/v4.0/resources-and-data-models/aisp/Transactions.html)
+- Therefore, this dataset was synthetically generated in Python using: [UK Open Banking API Standards](https://openbankinguk.github.io/read-write-api-site3/v4.0/resources-and-data-models/aisp/Transactions.html)
 - The generated data reflects: Customer spending behaviour, Merchant details / MCC codes, & Transaction types.
 
 ## Cleaning Workflow (SQL)
