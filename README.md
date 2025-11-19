@@ -84,5 +84,3 @@ This project shows how raw transactions are converted into trustworthy, structur
 - Connecting to live Open Banking APIs
 - Enhancing the merchant dictionary and fuzzy matching rules
 - Enriching data (customer profiles, subscription detection)
-
-Publishing BI dashboards (Tableau, Power BI) using the cleaned data
