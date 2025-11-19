@@ -27,12 +27,12 @@ Financial transaction data is valuable but often unreliable in raw form due to:
 - Currency/exchange rate mismatches
 
 Without proper cleaning, downstream analytics become inaccurate.
-*** This project shows how raw transactions are converted into trustworthy, structured data. ***
+This project shows how raw transactions are converted into trustworthy, structured data.
 
 # Methodology
 Data Source
 - Real bank data cannot be used for compliance reasons.
-- Therefore, this dataset was synthetically generated in Python using: 🔗 UK Open Banking API Standards (https://www.openbanking.org.uk/)
+- Therefore, this dataset was synthetically generated in Python using: 🔗 UK Open Banking API Standards (https://openbankinguk.github.io/read-write-api-site3/v4.0/resources-and-data-models/aisp/Transactions.html)
 - The generated data reflects:
   - Merchant details / MCC codes
   - Booked/value dates
